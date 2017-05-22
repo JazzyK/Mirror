@@ -1,10 +1,11 @@
 import requests
 import json
+import time
 from Tkinter import*
 #from PIL import ImageTk, Image
 
 #dictionary that links different weather states to respective icons
-icons = {} 
+icons = {#e.g. 'clear' : 'clear.png',...} 
 
 class FullscreenWindow:
     
